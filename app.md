@@ -1,96 +1,56 @@
-# تصميم تطبيق اكتشاف اعتلال الشبكية السكري (الإصدار المحدث)
+# Diabetic Retinopathy Detection App Documentation
 
-## ١. شاشات الأساسية
-### ١.١ شاشة البداية (Splash)
-- شعار التطبيق
-- رسالة ترحيبية قصيرة
-- تحميل لمدة ٣ ثواني
+## Application Overview
+A mobile application for early detection of diabetic retinopathy using AI analysis of retinal images. The app guides users through image capture, analysis, and result interpretation.
 
-### ١.٢ الشاشة الرئيسية (قبل التسجيل)
-- وصف مختصر للتطبيق
-- زر "تسجيل الدخول"
-- زر "إنشاء حساب"
-- زر "المتابعة كزائر"
+**Key Features:**
+- Secure user authentication
+- Retinal image upload and analysis
+- AI-powered diagnosis with risk assessment
+- Historical results tracking
+- Educational resources
 
-### ١.٣ الشاشة الرئيسية (بعد التسجيل)
-- شريط البحث
-- زر "فحص جديد" كبير
-- إحصائيات سريعة
-- قائمة مختصرة للسجل
+## Screen Specifications
 
-## ٢. شاشات المستخدم
-### ٢.١ إنشاء حساب
-- حقول: الاسم، البريد الإلكتروني، كلمة المرور
-- زر "إنشاء حساب"
-- رابط لشروط الاستخدام
+### App Entry Flow
+1. [Splash Screen](splash_screen_specs.md)
+2. [Guest Home Screen](guest_home_screen_specs.md)
 
-### ٢.٢ تسجيل الدخول
-- حقول: البريد الإلكتروني، كلمة المرور
-- زر "تسجيل الدخول"
-- رابط "نسيت كلمة المرور؟"
+### Authentication Flow
+3. [Login Screen](login_screen_specs.md)
+4. [Sign Up Screen](signup_specs.md)
+2. [Forgot Password](forgot_password_specs.md)
+3. [Verification Code](verification_code_specs.md)
+4. [Change Password](change_password_specs.md)
 
-### ٢.٣ استعادة كلمة المرور
-- حقل البريد الإلكتروني
-- زر "إرسال كود التفعيل"
-- حقل إدخال الكود
-- زر "تأكيد"
+### Main Application
+5. [Home Screen](home_screen_specs.md) (After login)
+6. [Image Upload](image_upload_screen_specs.md)
+7. [Analysis Results](analysis_result_screen_specs.md)
+8. [Archive/History](archive_history_screen_specs.md)
 
-### ٢.٤ تغيير كلمة المرور
-- حقول: كلمة المرور الجديدة، تأكيد كلمة المرور
-- زر "حفظ التغييرات"
+### Additional Screens
+9. [Profile](profile_specs.md)
+10. [FAQ](faq_screen_specs.md)
+11. [Privacy Policy](privacy_policy_screen_specs.md)
+12. [Terms of Use](terms_of_use_screen_specs.md)
+13. [Contact Us](contact_us_screen_specs.md)
 
-### ٢.٥ الملف الشخصي
-- صورة المستخدم
-- المعلومات الأساسية
-- زر "تعديل الملف"
-- إعدادات التطبيق
+## Technical Specifications
+- **Platform:** iOS and Android
+- **Languages:** English (LTR support)
+- **Design System:**
+  - Colors: Primary (#1976D2), Secondary (#4CAF50), Error (#DC2626)
+  - Typography: Standard mobile fonts
+  - Spacing: 8px grid system
 
-## ٣. شاشات الفحص
-### ٣.١ رفع الصورة
-- معاينة الكاميرا/المعرض
-- زر "التقاط/اختيار"
-- إرشادات جودة الصورة
+## Development Notes
+- All screens follow consistent LTR layout conventions
+- Accessibility compliance: WCAG 2.1 AA
+- Performance targets:
+  - Image upload < 5MB
+  - Analysis time < 30 seconds
 
-### ٣.٢ نتائج التحليل
-- الصورة مع المناطق المحددة
-- نتيجة التصنيف (درجة الخطورة)
-- تفسير النتيجة
-- خيارات المشاركة
-
-### ٣.٣ سجل الفحوصات
-- قائمة الفحوصات مع:
-  - الصورة المصغرة
-  - التاريخ
-  - النتيجة
-- إمكانية التصفية والبحث
-
-## ٤. شاشات إضافية
-### ٤.١ الأسئلة الشائعة
-- قائمة الأسئلة مع إجابات قابلة للطي
-- بحث عن الأسئلة
-
-### ٤.٢ سياسة الخصوصية
-- النص الكامل لسياسة الخصوصية
-- خيار الموافقة
-
-### ٤.٣ شروط الاستخدام
-- بنود وشروط استخدام التطبيق
-
-### ٤.٤ اتصل بنا
-- نموذج التواصل
-- معلومات الاتصال
-- خرائط الموقع
-
-## المواصفات الفنية
-- الألوان:
-  - الأساسي: #1976D2 (أزرق)
-  - الثانوي: #4CAF50 (أخضر)
-  - التحذير: #FF5722 (برتقالي)
-
-- الخطوط:
-  - العربية: Tajawal
-  - الإنجليزية: Roboto
-
-- أحجام الشاشات:
-  - الهاتف: 360×640 بكسل
-  - التابلت: 768×1024 بكسل
+## Version History
+- v1.0 (Current): Initial release with core functionality
+- v1.1 (Planned): Doctor consultation integration
