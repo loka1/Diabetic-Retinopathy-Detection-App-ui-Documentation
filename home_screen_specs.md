@@ -53,8 +53,8 @@
 - App title/text logo (left aligned)
 
 ### User Greeting
-- Text: "مرحباً [الاسم]"
-- Subtext: "كيف حالك اليوم؟"
+- Text: "Welcome [Name]"
+- Subtext: "How are you today?"
 - Text direction: RTL
 - Typography:
   - Title: 24px bold
@@ -62,25 +62,25 @@
 
 ### Quick Actions
 1. **Upload New Image Button**
-   - Text: "تحميل صورة جديدة"
+   - Text: "Upload New Image"
    - Color: #4CAF50 (primary green)
    - Icon: Camera/upload
    - Size: Full width with 16px margins
 
 2. **View Archive Button**
-   - Text: "عرض المحفوظات"
+   - Text: "View Archive"
    - Color: #1976D2 (secondary blue)
    - Icon: History
    - Size: Full width with 16px margins
 
 3. **FAQ Link**
-   - Text: "الأسئلة الشائعة"
+   - Text: "FAQ"
    - Color: #6B7280 (tertiary)
    - Icon: Question mark
    - Position: Below buttons
 
 ### Recent Analyses Section
-- Title: "التحليلات الحديثة"
+- Title: "Recent Analyses"
 - Layout: Horizontal scrollable list
 - Item components:
   - Thumbnail (80x80px rounded corners)
@@ -92,7 +92,7 @@
 
 ### Empty State
 - Illustration (magnifying glass + eye)
-- Text: "لا توجد تحليلات سابقة"
+- Text: "No previous analyses"
 - CTA button: "ابدأ بتحميل صورتك الأولى"
   - Color: Primary green
   - Icon: Upload
@@ -105,7 +105,7 @@
 
 ### Error State
 - Error icon
-- Text: "لا يمكن تحميل البيانات"
+- Text: "Could not load data"
 - Retry button
 
 ## Visual Feedback

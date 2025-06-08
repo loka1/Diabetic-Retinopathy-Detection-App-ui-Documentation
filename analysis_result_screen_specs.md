@@ -24,17 +24,17 @@
 ### Footer Navigation
 1. **Home Button**
    - Icon: Home
-   - Text: "الرئيسية"
+   - Text: "Home"
    - Active state: Outline icon (not current screen)
 
 2. **New Upload Button**
    - Icon: Camera/upload
-   - Text: "رفع طلب جديد"
+   - Text: "New Upload"
    - Position: Center
 
 3. **More Button**
    - Icon: Menu
-   - Text: "المزيد"
+   - Text: "More"
 
 ## Components
 
@@ -99,7 +99,7 @@
 
 ### Saved State
 - Success animation
-- "تم الحفظ بنجاح" toast
+- "Saved successfully" toast
 - Auto-archive option
 
 ## Visual Feedback

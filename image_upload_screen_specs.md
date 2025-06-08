@@ -65,15 +65,15 @@
 
 ### Error States
 1. Invalid File Type:
-   - Message: "يجب أن تكون الصورة بصيغة JPG أو PNG"
+   - Message: "Image must be in JPG or PNG format"
    - Visual: Red border + icon
 
 2. Size Limit Exceeded:
-   - Message: "حجم الصورة كبير جداً (الحد الأقصى 5MB)"
+   - Message: "Image size too large (maximum 5MB)"
    - Visual: Red border + size indicator
 
 3. Upload Failure:
-   - Message: "فشل التحميل - حاول مرة أخرى"
+   - Message: "Upload failed - please try again"
    - Retry button
 
 ### Success State
